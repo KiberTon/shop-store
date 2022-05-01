@@ -1,11 +1,18 @@
 import React from 'react';
-import {Switch, Route, Redirect} from 'react-router-dom'
+import { Routes, Route, Navigate } from 'react-router-dom'
+import { authRoutes, publicRoutes } from '../routes';
+import { SHOP_ROUTE } from '../utils/consts';
 
 const AppRouter = () => {
+    const isAuth = false
     return (
-        <div>
-            
-        </div>
+        <Routes>
+            {isAuth && authRoutes.map(({ path, Component }) =>
+                <Route key={path} path={path} component={Component} exact />)}
+            {publicRoutes.map(({ path, Component }) =>
+                <Route key={path} path={path} component={Component} exact />)}
+            <Navigate to={SHOP_ROUTE} />
+        </Routes>
     );
 };
 
