@@ -6,7 +6,7 @@ import { Context } from '..';
 const BrandBar = observer(() => {
     const { device } = useContext(Context)
     return (
-        <Row className="d-flex">
+        <Row xs='auto'>
             {device.brands.map(brand =>
                 <Card
                     className='p-3'
