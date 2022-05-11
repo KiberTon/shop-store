@@ -19,7 +19,9 @@ export default class DeviceStore {
             { id: 2, name: 'Iphone 12 pro', price: 24000, rating: 4, img: '' },
             { id: 3, name: 'Iphone 12 pro', price: 24000, rating: 5, img: '' },
             { id: 4, name: 'Iphone 12 pro', price: 24000, rating: 5, img: '' },
-            { id: 5, name: 'Iphone 12 pro', price: 24000, rating: 5, img: '' }
+            { id: 5, name: 'Iphone 12 pro', price: 24000, rating: 5, img: '' },
+            { id: 6, name: 'Iphone 12 pro', price: 24000, rating: 5, img: '' },
+            { id: 7, name: 'Iphone 12 pro', price: 24000, rating: 5, img: '' }
         ]
         this._selectedType = {}
         this._selectedBrand = {}
