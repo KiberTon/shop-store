@@ -15,13 +15,13 @@ export default class DeviceStore {
             { id: 4, name: 'Asus' }
         ]
         this._devices = [
-            { id: 1, name: 'Iphone 12 pro', price: 24000, rating: 5, img: '' },
-            { id: 2, name: 'Iphone 12 pro', price: 24000, rating: 4, img: '' },
-            { id: 3, name: 'Iphone 12 pro', price: 24000, rating: 5, img: '' },
-            { id: 4, name: 'Iphone 12 pro', price: 24000, rating: 5, img: '' },
-            { id: 5, name: 'Iphone 12 pro', price: 24000, rating: 5, img: '' },
-            { id: 6, name: 'Iphone 12 pro', price: 24000, rating: 5, img: '' },
-            { id: 7, name: 'Iphone 12 pro', price: 24000, rating: 5, img: '' }
+            { id: 1, name: 'Iphone 12 pro', price: 24000, rating: 5, img: 'https://www.purposechurch.com/wp-content/uploads/2017/10/fpo400x300.png' },
+            { id: 2, name: 'Iphone 12 pro', price: 24000, rating: 4, img: 'https://www.purposechurch.com/wp-content/uploads/2017/10/fpo400x300.png' },
+            { id: 3, name: 'Iphone 12 pro', price: 24000, rating: 5, img: 'https://www.purposechurch.com/wp-content/uploads/2017/10/fpo400x300.png' },
+            { id: 4, name: 'Iphone 12 pro', price: 24000, rating: 5, img: 'https://www.purposechurch.com/wp-content/uploads/2017/10/fpo400x300.png' },
+            { id: 5, name: 'Iphone 12 pro', price: 24000, rating: 5, img: 'https://www.purposechurch.com/wp-content/uploads/2017/10/fpo400x300.png' },
+            { id: 6, name: 'Iphone 12 pro', price: 24000, rating: 5, img: 'https://www.purposechurch.com/wp-content/uploads/2017/10/fpo400x300.png' },
+            { id: 7, name: 'Iphone 12 pro', price: 24000, rating: 5, img: 'https://www.purposechurch.com/wp-content/uploads/2017/10/fpo400x300.png' }
         ]
         this._selectedType = {}
         this._selectedBrand = {}

@@ -3,7 +3,7 @@ import { Button, Card, Col, Container, Image, Row } from 'react-bootstrap';
 import bigStar from '../assets/bigStar.png'
 
 const DevicePage = () => {
-    const device = { id: 1, name: 'Iphone 12 pro', price: 24000, rating: 5, img: '' }
+    const device = { id: 1, name: 'Iphone 12 pro', price: 24000, rating: 5, img: 'https://www.purposechurch.com/wp-content/uploads/2017/10/fpo400x300.png' }
     const description = [
         { id: 1, title: 'Оперативная память', description: '5 гб' },
         { id: 2, title: 'Камера', description: '12 mp' },
@@ -36,7 +36,7 @@ const DevicePage = () => {
                     </Card>
                 </Col>
             </Row>
-            <Row className='mt-3'>
+            <Row className='m-3'>
                 <h1>Характеристики</h1>
                 {description.map((info, index) =>
                     <Row key={info.id} style={{background: index % 2 === 0 ? 'lightgray' : 'transparent', padding:10}}>
