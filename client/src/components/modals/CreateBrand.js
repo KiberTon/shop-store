@@ -11,13 +11,13 @@ const CreateBrand = ({show, onHide}) => {
         >
             <Modal.Header>
                 <Modal.Title id="contained-modal-title-vcenter">
-                    Добавить бренд
+                    Добавить брэнд
                 </Modal.Title>
             </Modal.Header>
             <Modal.Body>
                 <Form>
                     <FormControl
-                        placeholder={'Введите название типа'}
+                        placeholder={'Введите название брэнда'}
                     />
                 </Form>
             </Modal.Body>

@@ -19,7 +19,7 @@ const Admin = () => {
             <Button
                 onClick={() => setBrandVisible(true)}
                 variant='outline-dark'
-                className='mt-4 p-2'>Добавить бренд
+                className='mt-4 p-2'>Добавить брэнд
             </Button>
             <Button
                 onClick={() => setDeviceVisible(true)}
